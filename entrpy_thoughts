@@ -24,7 +24,10 @@ g) can be traded on exchanges
 
 1. Lottery version
 
-Bkg story. A while ago I was thinking to get a shipping container to live in it some days a year. It costs about 15k to buy one and make it into a room. Then the costs are very low. Bog standard timesharing thing to have a space you can crash in the centre of the city. If 3 people put 5k in and some work you can share it between 3 people. But if 30 people put 500 in, then it becomes a mess for two reasons: a) they will have to agree when and who is using the container. b) is is not likely all of them wouldn't think of each other as arseholes. Main challenge "who wants to share a shipping container with an arsehole"
+Bkg story. A while ago I was thinking to get a shipping container to live in it some days a year. 
+It costs about 15k to buy one and make it into a room. Then the costs are very low. 
+Bog standard timesharing thing to have a space you can crash in the centre of the city. 
+If 3 people put 5k in and some work you can share it between 3 people. But if 30 people put 500 in, then it becomes a mess for two reasons: a) they will have to agree when and who is using the container. b) is is not likely all of them wouldn't think of each other as arseholes. Main challenge "who wants to share a shipping container with an arsehole"
 
 Scenario:
 - everyone who sends any ether to entrpy crowdfunding contract gets tokens to their EOAs
@@ -34,7 +37,8 @@ Result:
 - you get a lot of people and just enough ether to get one boat
 - lets say they don't all want to come to the boat, but many of them
 - you can have a very intricate time management system which is an overhead
-- or implement a lottery, where every address ever sending ether to Entrpy crowdfunding contract address gets drawn and some people can come and hangout on the boat first, and others have to wait
+- or implement a lottery, where every address ever sending ether to Entrpy crowdfunding contract 
+address gets drawn and some people can come and hangout on the boat first, and others have to wait
 
 What does token do?
 - X amount of tokens = lottery ticket.
