@@ -2,25 +2,33 @@
 Some thoughts on how Entropy governance system works, and what the token does.
 
 
-Intro: Entropy is a bunch of boats that people who don't have boats can use to travel and to hamgout. 
-Boats are maintained by people who hangout on them. 
+Intro: Entropy is a bunch of boats that people who don't have boats can use to travel and to hamgout.
+Boats are maintained by people who hangout on them.
 And sailed by people who can sail them with other people on them safely.
-To buy the first boat a bunch of Ether can be collected in exchange for Entropy tokens. 
-Entropy tokens are most likely an ERC20 usual Ethereum sub-currency. 
-This document is an attemnpt to imagine some ways this whole thing can work with different levels of autonomy 
+Where they sail and what they do (and why they do it) is decided by people on the boats, and everyone who helped so far.
+
+To buy the first boat a bunch of Ether can be collected in exchange for Entropy tokens.
+Entropy tokens are most likely an ERC20 usual Ethereum sub-currency. - maybe
+This document is an attemnpt to imagine some ways this whole thing can work with different levels of autonomy
 and trustlessness, think through possible attack vectors and tradeoffs.
 
-In this particular usecase it is important that it is not just an ordinary timesharing model, 
-and it is important that it's not boring commercial stuff. It has to be sustainable, 
-so some cool business model would be useful. 
-But, a big company can't just hire the boat for tokens and make everyone who maintains and sails it their slave, 
-because it will be like having a boring job. We don't want that. 
+Each person who helps is equal, rich people shouldn't be worth more but are welcome too.
+So having more tokens is not having more votes or a bigger vote.
 
-Meta stuff. This is not only useful for Entrpy usecase, 
+To make sure people are real people and not just copies or robots, there is a simple
+trust network - we can phone you and check you're one person, then mark that against your address.
+
+In this particular usecase it is important that it is not just an ordinary timesharing model,
+and it is important that it's not boring commercial stuff. It has to be sustainable,
+so some cool business model would be useful.
+But, a big company can't just hire the boat for tokens and make everyone who maintains and sails it their slave,
+because it will be like having a boring job. We don't want that.
+
+Meta stuff. This is not only useful for Entrpy usecase,
 but any usecases in which some large expensive stuff can be used by many people.
-Kind of a membership/access thing. 
-This sometimes works fine without any blockchains involved and sometimes goes to shit. 
-Many people wrote clever stuff about it, but most of it is based on magic. 
+Kind of a membership/access thing.
+This sometimes works fine without any blockchains involved and sometimes goes to shit.
+Many people wrote clever stuff about it, but most of it is based on magic.
 This concept is somehow related to that of commons.
 
 All possible things that Enrpy token can do in different scenarios.
@@ -37,54 +45,54 @@ h) something else
 
 1. Lottery version
 
-Bkg story. A while ago I was thinking to get a shipping container to live in it some days a year. 
-It costs about 15k to buy one and make it into a room. Then the costs are very low. 
-Bog standard timesharing thing to have a space you can crash in the centre of the city. 
-If 3 people put 5k in and some work you can share it between 3 people. 
-But if 30 people put 500 in, then it becomes a mess for two reasons: 
-a) they will have to agree when and who is using the container. 
-b) is is not likely all of them wouldn't think of each other as arseholes. 
+Bkg story. A while ago I was thinking to get a shipping container to live in it some days a year.
+It costs about 15k to buy one and make it into a room. Then the costs are very low.
+Bog standard timesharing thing to have a space you can crash in the centre of the city.
+If 3 people put 5k in and some work you can share it between 3 people.
+But if 30 people put 500 in, then it becomes a mess for two reasons:
+a) they will have to agree when and who is using the container.
+b) is is not likely all of them wouldn't think of each other as arseholes.
 Main challenge "who wants to share a shipping container with an arsehole"
 
 Scenario:
 - everyone who sends any ether to entrpy crowdfunding contract gets tokens to their EOAs
 - we don't have to exclude people who don't have a lot of ether, so if you didn't get many tokens you can come too
 
-Result: 
+Result:
 - you get a lot of people and just enough ether to get one boat
 - lets say they don't all want to come to the boat, but many of them
 - you can have a very intricate time management system which is an overhead
-- or implement a lottery, where every address ever sending ether to Entrpy crowdfunding contract 
+- or implement a lottery, where every address ever sending ether to Entrpy crowdfunding contract
 address gets drawn and some people can come and hangout on the boat first, and others have to wait
 
 What does token do?
 - X amount of tokens = lottery ticket.
 
 What the token doesn't do?
-- doesn't give you a right to come and hangout on the boat. 
+- doesn't give you a right to come and hangout on the boat.
 - you can trade it to other people before the lottery is held
 
-Conclusion. Lottery is good because it implies randomness and doesn't rely on anyone's opinion. 
-it doesn't need voting. 
-Tradeoffs. It's not trivial to make a trustless lottery on Ethereum. 
-In fact no one did it properly yet. 
-It's fine, because we can assume that this token is so niche, 
-and is not traded on exchanges in the beginning at least, 
-which means we can use internal blockchain data for PRNG, 
-without worrying that the miners will affect the result. 
+Conclusion. Lottery is good because it implies randomness and doesn't rely on anyone's opinion.
+it doesn't need voting.
+Tradeoffs. It's not trivial to make a trustless lottery on Ethereum.
+In fact no one did it properly yet.
+It's fine, because we can assume that this token is so niche,
+and is not traded on exchanges in the beginning at least,
+which means we can use internal blockchain data for PRNG,
+without worrying that the miners will affect the result.
 
 2. Bounty membership version
 
-This version mainly addresses the arsehole challenge and also leverage useful resources which are non monetary. 
-According to my observation most people come out as mutually arsehole when they work or live together. 
-In this version people who want to come and hangout on the boat have to put some work into it, not just ether. 
-People who don't have any ether at all can still do something useful and use the boat if they want to. 
+This version mainly addresses the arsehole challenge and also leverage useful resources which are non monetary.
+According to my observation most people come out as mutually arsehole when they work or live together.
+In this version people who want to come and hangout on the boat have to put some work into it, not just ether.
+People who don't have any ether at all can still do something useful and use the boat if they want to.
 This system has lesser degree of trustlessness, because someone has to confirm that these people actually helped.
 
 Scenario:
 - everyone who sends any ether to entrpy crowdfunding contract gets tokens
 - we don't have to exclude people who don't have a lot of ether, so if you didn't get many tokens you can come too
-- some things that has to be done are defined 
+- some things that has to be done are defined
 - some things are done by someone
 - this someone self-identifies and receives tokens to their EOA
 
@@ -96,21 +104,50 @@ What does token do?
 
 3. Bounty membership version +
 
-In this version there are two types of tokens: tokens that can be purchased for ether and does anything but a, 
-and tokens that make you a part of the crew. How they are issued is a soft kind of thing, based on trust. 
+In this version there are two types of tokens: tokens that can be purchased for ether and does anything but a,
+and tokens that make you a part of the crew. How they are issued is a soft kind of thing, based on trust.
 
-Tradeoffs of versions 2 and 3 are that some poeple would pay for the boat, 
-and others will just go and hangout there because they are considered cool. 
-This is a bit like taxation system, but based on trust. 
-If you give money - we don't trust you, but if we know you're not an arsehole, 
-then you can use this thing we bought. 
-Hovewer, if theose who put money into the thing also get something usefule out of it it's fine. 
-Both versions 2 and 3 are sort of sponsorship models. 
-Lets say when a company sponsors a party or a hackathon. 
-Sponsoship models can work or they can be horrible, 
+Tradeoffs of versions 2 and 3 are that some poeple would pay for the boat,
+and others will just go and hangout there because they are considered cool.
+This is a bit like taxation system, but based on trust.
+If you give money - we don't trust you, but if we know you're not an arsehole,
+then you can use this thing we bought.
+Hovewer, if theose who put money into the thing also get something usefule out of it it's fine.
+Both versions 2 and 3 are sort of sponsorship models.
+Lets say when a company sponsors a party or a hackathon.
+Sponsoship models can work or they can be horrible,
 lets say when a sponsor comes to a hackathon
-and pushes their stuff to the members or try to make them work on their useless stuff. 
+and pushes their stuff to the members or try to make them work on their useless stuff.
 
 
+4. Citizenship Best Effort World Chunks Volunteering Voyage Version
 
+This version has everyone who wants to help or be involved buy a token which lets them
+volunteer to help and vote on everything.
 
+The world is split into large sections inside the DAO, people who want to help in
+each section and send their token there and see how full it is.
+
+If somewhere is really full with a lot of people wanting to be part of it, then we stay
+there longer and longer until a storm comes or it's winter.
+
+People also vote about which groups/teams/tribes can come aboard for longer to build something.
+This stuff they build is hopefully awesome and hopefully they feel was worth something having us help,
+so maybe they give back and we can keep sailing for longer and get a bigger fleet.
+
+Scenario:
+- everyone who sends any ether to entrpy crowdfunding contract gets tokens
+- we don't have to exclude people who don't have a lot of ether, so if you didn't get many tokens you can come too
+- people come but not just for a ride, come to help
+- schedule changes a lot based on how many people want to help where
+- people can see how busy it is before joining, so if it looks crazy they can not join or still join if they dont mind
+
+Result:
+- People with almost no money but willing to help can still come aboard
+- schedule is flexible so we dont' really know where we'll be as much but everyone who's keen should be able to be part of it
+- maybe a lot of unexpected hanging out at major cities but that will be fun but maybe difficult to park
+
+What does token do?
+- unlocks voting
+- lets you say where you can help, maybe even in what order?
+- can attach contact number to so we can get in touch
