@@ -123,10 +123,26 @@ and pushes their stuff to the members or try to make them work on their useless 
 4. Citizenship Best Effort World Chunks Volunteering Voyage Version
 
 This version has everyone who wants to help or be involved buy a token which lets them
-volunteer to help and vote on everything.
+volunteer to help and vote on everything. (what if they don't want to help but want to buy a token?)
 
-The world is split into large sections inside the DAO, people who want to help in
-each section and send their token there and see how full it is.
+The world is split into large sections (how, by location provided by poeple who sent ether?)
+inside the DAO (what does it mean inside the dao?), people who want to help in
+each section and send their token there and see how full it is (send their token where?)
+
+(does this mean: "devide planet Earth into chunks, assign arbitrarily an ethereum address to each chunk with some code on the address.
+it maps planet Earth to a number of ethereum addresses. When th want to send a phisycal boat to a particular chunk of the Earth
+they send their token there. Boat goes there. They can come and help out" 
+Questions: 
+1. when all the tokens get stuck on balances of the Earth chunks, do the th get them back? 
+Or are they messages, not tokens?
+2. or is it a contract regisrty of some eth addresses arbitrarily assigned zones of the Earth?
+3. does it imply that after poeple come and help they get more superpowers?
+4. What do evil people do?
+5. if a 100k required to do an MVP with a functioning hackspace on boat, and everyone has 1 ether each its 2000 people.
+hopefully they wont all want to use an mvp hackspace. I think for people to give more ether this all has to have a biz model,
+not in a sense of generating profit, but in a sense it should be sustainable and the token should circulate, and poeple should want it. I'm not sure if the only thing you can do with the token is volunteer work is a good thing.
+if it's not sustainable token will lose value and meaning when ether runds out and you have to issue and sell more tokens.
+that's what governments do with money, and I'm not sure if its the best way to run stuff. 
 
 If somewhere is really full with a lot of people wanting to be part of it, then we stay
 there longer and longer until a storm comes or it's winter.
@@ -138,7 +154,10 @@ so maybe they give back and we can keep sailing for longer and get a bigger flee
 Scenario:
 - everyone who sends any ether to entrpy crowdfunding contract gets tokens
 - we don't have to exclude people who don't have a lot of ether, so if you didn't get many tokens you can come too
-- people come but not just for a ride, come to help
+- people come but not just for a ride, come to help (this is a hippie scenario, not a game theory scenario, I guess its fine too, question what are they helping with exactly? how do they get access to a hackspace?
+I'm just thinking normally you pay your hackerspace membership in exchange for access to it and whats there,
+for example at c-base you also get discount on drinks at the bar. many poeple pay their membership because its just cool 
+and to support the hackspace)
 - schedule changes a lot based on how many people want to help where
 - people can see how busy it is before joining, so if it looks crazy they can not join or still join if they dont mind
 
